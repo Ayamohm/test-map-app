@@ -37,14 +37,15 @@ class _MyHomePageState extends State<MyHomePage> {
   Completer<GoogleMapController>();
 
   static const CameraPosition _kGooglePlex = CameraPosition(
-    target: LatLng(37.42796133580664, -122.085749655962),
-    zoom: 14.4746,
+    target: LatLng(26.8206, 30.8025),
+    zoom: 7,
   );
 
   static const CameraPosition _kLake = CameraPosition(
-    bearing: 192.8334901395799,
-    target: LatLng(0, 0),
-    zoom: 100,
+      target: LatLng(26.8206, 30.8025),
+      tilt: 45,
+      bearing: 45,
+      zoom: 7
   );
 
   @override
